@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace EFExercise.Models
@@ -10,6 +11,7 @@ namespace EFExercise.Models
         public string FirstMidName { get; set; }
         public DateTime EnrollmentDate { get; set; }
 
-        public ICollection<Enrollment> Enrollments { get; set; }
+        public ICollection<Enrollment> Enrollments { get; set;}
+
     }
 }
