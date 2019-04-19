@@ -20,4 +20,5 @@ namespace EFExercise.Data
             modelBuilder.Entity<Student>().ToTable("Student");
         }
     }
+
 }
